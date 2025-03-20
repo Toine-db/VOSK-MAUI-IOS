@@ -1,4 +1,4 @@
-namespace MauiiOSBinding
+namespace VoskBinding
 {
 
     // The first step to creating a binding is to add your native framework ("MyLibrary.xcframework")

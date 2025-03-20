@@ -1,4 +1,6 @@
-﻿namespace BindingTestApp;
+﻿using BindingTestApp.Platforms.iOS;
+
+namespace BindingTestApp;
 
 public partial class MainPage : ContentPage
 {
@@ -11,6 +13,9 @@ public partial class MainPage : ContentPage
 
     private void OnCounterClicked(object sender, EventArgs e)
     {
+        var tster = new TestClass();
+        tster.TestMethod();
+
         count++;
 
         if (count == 1)
